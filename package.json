@@ -1,0 +1,16 @@
+{
+  "name": "styled-components-css-prop-quirk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hamlim/styled-components-css-prop-quirk.git",
+  "author": "Matt Hamlin <matthewjameshamlin@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel index.js --out-file build.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "babel-plugin-styled-components": "^1.12.0"
+  }
+}
